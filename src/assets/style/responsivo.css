@@ -18,8 +18,13 @@
         padding-left: 1rem;
         padding-right: 1rem;
     }
-    
-    .secao-horizontal .cartao{
+
+    .secao__cartoes {
+        row-gap: 0.5rem;
+        --gap-coluna: 1rem;
+    }
+
+    .secao-horizontal .cartao {
         column-gap: 0.5rem;
     }
 
@@ -61,11 +66,14 @@
 
     .menu-lateral {
         width: 213px;
-
     }
 
     .menu-lateral__link::before {
         padding-left: 0.75rem;
+    }
+
+    .secao__cartoes {
+        --gap-coluna: 1.5rem;
     }
 
     .secao-horizontal .cartao__titulo {
